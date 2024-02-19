@@ -58,10 +58,13 @@ User authentication mechanisms are essential to ensure secure and authorized acc
 ## Considerations in Development:
 1.	Concurrency and Multithreading:
 •	Chat applications often require handling multiple connections simultaneously. The server must be designed to support concurrency, commonly achieved through multithreading or asynchronous programming.
+
 2.	Security:
 •	Ensuring the security of user data and messages is paramount. Encryption techniques, such as SSL/TLS, can be implemented to secure data in transit. Proper user authentication mechanisms help prevent unauthorized access.
+
 3.	Scalability:
 •	As the number of users grows, the chat application must be scalable. This involves optimizing server-side architecture to handle increasing loads efficiently.
+
 4.	Persistence:
 •	Some chat applications implement message persistence, allowing users to retrieve past messages. This may involve using databases to store and retrieve chat history.
 
